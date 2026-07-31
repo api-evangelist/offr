@@ -1,8 +1,30 @@
 aid: offr
 name: Offr
-description: Offr is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Offr (Offr.io Ltd) is a Dublin-based property technology (proptech) platform that
+  digitizes end-to-end real estate transactions. Estate and letting agents embed the
+  Offr "offer panel" / button on their own website to run private-treaty sales, online
+  auctions, tenders, lettings, and new-home sales - collecting verified offers and bids,
+  scheduling viewings, managing a legal document vault with e-signing, taking secure
+  deposits (via Stripe), and streaming live auction broadcasts, all with a fully auditable
+  transaction trail. The platform serves residential and commercial agents, buyers, sellers,
+  landlords, tenants, developers, and solicitors across Ireland, the UK, Europe, the USA,
+  and Australia. Offr is a SaaS/embedded product; it exposes no public developer API,
+  developer portal, or OpenAPI at this time and integrates DocuSign, Stripe, and AWS as a
+  consumer. Surfaced as a Techstars portfolio company and enriched from public web sources.
 url: https://raw.githubusercontent.com/api-evangelist/offr/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.offr.io/images/hero-background-card.jpg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +33,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- PropTech
+- Real Estate
+- Property Transactions
+- Auctions
+- Lettings
+- Offer Management
+- Ireland
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +52,34 @@ maintainers:
 common:
 - type: Website
   url: https://offr.io/
+- type: About
+  url: https://offr.io/about-us
+- type: HowItWorks
+  url: https://offr.io/how-it-works
+- type: Pricing
+  url: https://offr.io/pricing
+- type: Plans
+  url: https://offr.io/plans
+- type: SignUp
+  url: https://offr.io/register
+- type: Login
+  url: https://offr.io/login
+- type: Support
+  url: https://offr.io/contact-us
+- type: Blog
+  url: https://offr.io/articles
+- type: PrivacyPolicy
+  url: https://offr.io/privacy-policy
+- type: TermsOfService
+  url: https://offr.io/terms-and-conditions
+- type: LLMsTxt
+  url: llms/offr-llms.txt
+- type: TrustCenter
+  url: security/offr-trust-center.yml
+- type: DomainSecurity
+  url: security/offr-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 3
+  pass: local-v1

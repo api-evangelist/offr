@@ -1,0 +1,19 @@
+generated: '2026-07-20'
+method: searched
+source: https://offr.io/security
+url: https://offr.io/security
+note: >-
+  Offr publishes a security page. The SOC 2 Type II and ISO 27001 certifications
+  named on the page are attributed to Offr's data-center/infrastructure partners
+  (redundant power, network, and HVAC), not to Offr Ltd itself. No first-party
+  Offr certification, audit report, or trust portal is published. Recorded here
+  faithfully as infrastructure-partner posture, not an Offr corporate certification.
+certifications: []
+infrastructure_partner_certifications:
+- SOC 2 Type II
+- ISO 27001
+evidence:
+- source: https://offr.io/security
+  quote: >-
+    Data center partners are SOC 2 Type II and ISO 27001 certified and provide
+    redundancy for power, network, and HVAC services.
